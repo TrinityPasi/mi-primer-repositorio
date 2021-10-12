@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12pt;
+}
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+    color: #212121;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    background-color: #fbe9e7;
+    border-color: #fbe9e7;
+    border-radius: 50px;
+    border-style: ridge;
+    border-width: 2px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.form-signin .form-caja:focus-within {
+    z-index: auto;
+}
+.form-signin input[type="email"]{
+    height: 20px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    border-color: #fbe9e7;
+    border-style: groove;
+    border-width: 2px;
+}
+.form-signin input[type="password"]{
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-color: #fbe9e7;
+    border-style: groove;
+    border-width: 2px;
+}
+.form-signin button[type="submit"]{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+    background-color: #ffccbc;
+    border-color: #fff;
+    border-radius: 25px;
+    border-style: outset;
+    border-width: 2px;
+}

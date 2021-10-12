@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="JavaScript3.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    </style>
+    <script src="JavaScript3.js"></script>
+    <title>Ingreso al sistema</title>
+</head>
+<body class="text-center">
+    <main class="form-signin">
+        <form style="text-align: center;" name="form-ingreso" action="ingreso.php" method="POST">
+            <div><h2>Ingreso al Sistema</h2></div>
+            <div class="form-caja">
+                <label for="usuario">Usuario: </label>
+                <input type="email" class="form-control" id="usuario" placeholder="nombre@ejemplo.com" required>
+            </div>
+            <div class="form-caja">
+                <label for="clave">Clave: </label>
+                <input type="password" class="form-control" id="clave" placeholder="contraseña" required>
+            </div>
+            <div class="form-caja">
+                <button type="submit" id="submit" class="submit">Ingresar</button>
+            </div>
+        </form>
+        <p></p>
+    </main>    
+</body>
+</html>
